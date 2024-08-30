@@ -1,0 +1,74 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+  }
+  
+  .navbar-logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar-links li a:hover {
+    color: #ddd;
+  }
+  /* Container for the logo */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  /* Adjust spacing as needed */
+  margin-right: 20px;
+}
+
+/* Style for the logo image */
+.navbar-logo img {
+  height: 50px; /* Adjust height as needed */
+  width: auto;  /* Maintain aspect ratio */
+  /* Optional: add a border or shadow */
+  border-radius: 8px; /* Rounded corners */
+  border: 2px solid #333; /* Border color */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Shadow for a 3D effect */
+}
+
+/* Hover effect for logo (optional) */
+.navbar-logo img:hover {
+  opacity: 0.8; /* Slightly fade the image on hover */
+}
+
+.navbar-cart {
+  display: flex;
+  align-items: center;
+  /* Adjust spacing as needed */
+  margin-right: 20px;
+}
+
+/* Style for the logo image */
+.navbar-cart img {
+  height: 50px; /* Adjust height as needed */
+  width: auto;  /* Maintain aspect ratio */
+  /* Optional: add a border or shadow */
+  border-radius: 8px; /* Rounded corners */
+  border: 2px solid #333; /* Border color */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Shadow for a 3D effect */
+}
+
+/* Hover effect for logo (optional) */
+.navbar-cart img:hover {
+  opacity: 0.8; /* Slightly fade the image on hover */
+}
+

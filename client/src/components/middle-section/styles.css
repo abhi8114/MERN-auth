@@ -1,0 +1,61 @@
+.nature-lover-stories {
+    background-color: #f8f9fa;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .nature-lover-stories h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .stories-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .story-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    flex-basis: 30%;
+    text-align: left;
+  }
+  
+  .story-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .story-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .story-card p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .image2{
+    display: flex;
+  }
+  .image2 img{
+    max-width: 50%;
+    height:fit-content;
+  }
+  .details{
+    /* width: 50%; */
+  
+    background-color: #fdfffe;
+  }
